@@ -1,0 +1,13 @@
+jenkinsApplicationName : jenkins-app
+
+namespace: tooling
+
+jenkinsimage: 
+  name: 339712841242.dkr.ecr.eu-west-2.amazonaws.com/jenkins-repo/jenkins-app:latest
+  tag: "latest"
+
+jenkinsservice: jenkins-app-service
+serviceingress:  jenkins-ingress-service
+
+jenkinsappbaseURL : jenkins.techrite.org
+
